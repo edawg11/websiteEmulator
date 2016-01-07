@@ -1,0 +1,143 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("http://d27bqd9qyr2lqg.cloudfront.net/2014/home/header-brogramming-niall-phil.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.clearfix:before, {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	content: " ";
+	display: table;
+	clear:both;
+}
+
+
+
+#header {
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	display: block;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 35px;
+	z-index: 999;
+	top:0;
+
+	
+}
+
+#header.smaller {
+	
+	background-color: black;
+	padding-top: 10px;
+	transition: all .2s;
+	
+}
+
+
+
+.logoHolder {
+	float: left;
+	width: 20%;
+	margin: 0;
+	line-height: 80px;
+	padding-top: 10px;
+}
+
+.linksHolder {
+	text-align: center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+
+#link {
+	color: white;
+	font-size: 17px;
+	line-height: 3;
+	margin-right: 10px;
+	margin-left: 10px;
+	text-decoration: none;
+	line-height: 65px;
+}
+
+#link :hover {
+	color: red;
+}
+
+.slash {
+	color: white;
+	font-size: 17px;
+}
+
+.rightNav{
+	float:left;
+	text-align: right;
+	color: #CFCA86;
+	font-size: 21px;
+	width: 20%;
+	height: 100%;
+	line-height: 25px;
+}
+
+.mainWrapper {
+	display: block;
+	width:100%;
+	height: 500px;
+	text-align: center;
+	color: white;
+	margin-top: 223px;
+}
+
+#hello {
+	font-size: 46px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	padding-bottom: 25px;
+}
+
+.expertWrapper {
+	font-size:21px;
+}
+
+.descWrapper {
+	
+}
+
+#desc {
+	font-size: 46px;
+	font-family: Georgia;
+}
+
+.buttonWrapper {
+	border:2px white solid;
+	border-radius: 5px;
+	color: white;
+	font-size: 17px;
+	width: 200px;
+	height: 60px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-decoration: none;
+	line-height: 56px;
+}
+
+#learn {
+	text-decoration: none;
+	color: white;
+	/*color: white;*/
+}
+
+
+}
